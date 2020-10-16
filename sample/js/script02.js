@@ -5,21 +5,21 @@ let num1=20;
 let num1=32;
 
 $("#button01").on("click",function(){
-    $("#content").text("おはよう");
+    $("#content").text("ヤッホー");
 })
 
 $("button02").on("click",function(){
-    $("#content").text(ハウアーユー);
+    $("#content").text(txt1);
 })
 $("#button03").on("click",function(){
-    $("#content").text(おはよう+ハウアーユー);
+    $("#content").text(txt1+txt2);
 })
 $("#button04").on("click",function(){
-    $("#content").text(20+32);
+    $("#content").text(num1+num2);
 })
 
 $("#button05").on("click",function(){
-    $("#content").text(20+"たす"+30+"は"+(20+32)+"です");
+    $("#content").text(num1+"たす"+num2+"は"+(num1+num2)+"です");
 })
 
 });
