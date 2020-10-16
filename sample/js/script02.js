@@ -4,22 +4,22 @@ let txt2="ハウアーユー";
 let num1=20;
 let num1=32;
 
-$("button01").on("click",fanction(){
-    $("#content").text("こんちゃ");
+$("#button01").on("click",function(){
+    $("#content").text("おはよう");
 })
 
 $("button02").on("click",function(){
-    $("#content").text(txt1);
+    $("#content").text(ハウアーユー);
 })
 $("#button03").on("click",function(){
-    $("#content").text(txt1+txt2);
+    $("#content").text(おはよう+ハウアーユー);
 })
 $("#button04").on("click",function(){
-    $("#content").text(num1+num2);
+    $("#content").text(20+32);
 })
 
 $("#button05").on("click",function(){
-    $("#content").text(num1+"たす"+"は"+(num1+num2)+"です");
+    $("#content").text(20+"たす"+30+"は"+(20+32)+"です");
 })
 
 });
