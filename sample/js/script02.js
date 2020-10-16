@@ -1,8 +1,8 @@
 $(function(){
-let txt1=おはよう
-let txt2=ハウアーユー
-let num1=20
-let num1=32
+let txt1="おはよう";
+let txt2="ハウアーユー";
+let num1=20;
+let num1=32;
 
 $("button01").on("click",fanction(){
     $("#content").text("こんちゃ");
