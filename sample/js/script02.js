@@ -7,11 +7,11 @@ let num3="9余り2";
 
 
 $("#button01").on("click",function(){
-    $("#content").extend("ヤッホー");
+    $("#content").text(tex1);
 })
 
 $("#button02").on("click",function(){
-    $("#content").text(txt1);
+    $("#content").append(txt2);
 })
 $("#button03").on("click",function(){
     $("#content").text(txt1+txt2);
@@ -21,7 +21,8 @@ $("#button04").on("click",function(){
 })
 
 $("#button05").on("click",function(){
-    $("#content").text(num1+"÷"+num2+"="+num3+"やで");
+    $("#content").text
+    (num1+"÷"+num2+"="+num3+"やで");
 })
 
 });
