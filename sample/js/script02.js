@@ -19,7 +19,7 @@ $("#button04").on("click",function(){
 })
 
 $("#button05").on("click",function(){
-    $("#content").text(num1+"✖️"+num2+"✖️"+(num1✖️num2)+"です");
+    $("#content").text(num1+"✖️"+num2+"✖️"+(num1+num2)+"です");
 })
 
 });
