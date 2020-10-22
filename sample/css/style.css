@@ -8,7 +8,7 @@ body{
 
 .wrapper{
   max-width: 1000px;
-  background-color: #fff;
+  background-color: rgb(8, 8, 8);
   margin: 0 auto;
   padding: 20px;
   min-height: 400px;
