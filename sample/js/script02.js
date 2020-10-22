@@ -13,11 +13,10 @@ $("#button01").on("click",function(){
 })
 
 $("#button02").on("click",function(){
-    $("#content").text
-    (txt2);
+    $("#content").append(txt2);
 })
 $("#button03").on("click",function(){
-    $("#content").text(txt3);
+    $("#content").append(txt3);
 })
 $("#button04").on("click",function(){
     $("#content").text(txt4);
