@@ -1,13 +1,13 @@
 $(function(){
 let txt1="おはよう";
-let txt2="ハウアーユー";
+let txt2="愛してる";
 let num1=29;
 let num2=3;
 let num3="9余り2";
 
 
 $("#button01").on("click",function(){
-    $("#content").text(tex1);
+    $("#content").text(txt1);
 })
 
 $("#button02").on("click",function(){
