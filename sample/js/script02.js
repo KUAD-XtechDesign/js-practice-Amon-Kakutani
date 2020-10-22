@@ -1,8 +1,9 @@
 $(function(){
 let txt1="おはよう";
 let txt2="ハウアーユー";
-let num1=50;
-let num2=2;
+let num1=29;
+let num2=3;
+let num3="9あまり2";
 
 $("#button01").on("click",function(){
     $("#content").text("ヤッホー");
@@ -19,7 +20,7 @@ $("#button04").on("click",function(){
 })
 
 $("#button05").on("click",function(){
-    $("#content").text(num1+"✖️"+num2+"✖️"+(num1+num2)+"です");
+    $("#content").text(num1+"÷"+num2+"÷"+num3+"です");
 })
 
 });
