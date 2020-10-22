@@ -28,7 +28,7 @@ $("#button05").on("click",function(){
 
 $("#button06").on("click",function(){
     $("#content").text
-    (num1+"÷"+num2+"="+text3+"やで");
+    (num1+"÷"+num2+"="+txt5+"やで");
 })
 
 });
